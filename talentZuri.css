@@ -1,0 +1,47 @@
+@import url("http://fonts.cdnfonts.com/css/graphik");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Graphik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+  
+}
+
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.y{
+    display: none;
+}
+
+
+
+
+#home {
+  padding-top: 220px;
+}
+
+.homeContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeImage .image1{
+    width: 70%;
+}
